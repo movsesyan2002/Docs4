@@ -27,3 +27,13 @@ partial class Character
     }
 
 }
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Character character = new Character("Comic Relief",5);
+        character.ShowCharacterInfo();
+    }
+}
